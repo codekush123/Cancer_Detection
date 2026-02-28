@@ -1,0 +1,20 @@
+# Ignore data
+data/
+data/**
+
+# Ignore trained models
+models/*.h5
+models/*.keras
+models/*.ckpt
+
+# Ignore Jupyter 
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+.venv311/
